@@ -8,9 +8,12 @@
 	<authorEmail>esteban@informalthinkers.com</authorEmail>
 	<authorUrl>www.informalthinkers.com</authorUrl>
 	<version>1.0</version>
-	<description>a plugin that organizes the js load in the page</description>
+	<description>a plugin that organizes the js load in the page, has the option to load the script asyncronously, and also define if the syncrnous one must be loaded in the head</description>
 	<files>
 		<filename plugin="jsloader">jsloader.php</filename>
 	</files>
-	<params/>
+	<params>
+		<param name="sync_js_list" type="textarea" label="Asyncronous loaded javascript" default="" description="all the js in this list will be loaded asyncrously, one script per line"/>
+		<param name="sync_js_list" type="textarea" label="Asyncronous loaded javascript" default="" description="all the js in this list will be loaded asyncrously, one script per line"/>
+	</params>
 </install>

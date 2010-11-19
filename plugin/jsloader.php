@@ -1,8 +1,6 @@
 <?php
 /**
- * @version		$Id: example.php 10714 2008-08-21 10:10:14Z eddieajau $
- * @package		Joomla
- * @subpackage	Content
+ * @version		$Id: jsloader.php 2010-10-19 esteban
  * @copyright	Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.
  * @license		GNU/GPL, see LICENSE.php
  * Joomla! is free software. This version may have been modified pursuant
@@ -10,6 +8,10 @@
  * is derivative of works licensed under the GNU General Public License or
  * other free or open source software licenses.
  * See COPYRIGHT.php for copyright notices and details.
+ */
+
+/**
+ * This plugin is a helper to load the javascript in some better ways
  */
 
 // Check to ensure this file is included in Joomla!
@@ -48,6 +50,7 @@ class plgSystemJsLoader extends JPlugin
 		
 	}
 
+	
 	function onAfterRender() {
 		global $mainframe;
 		
